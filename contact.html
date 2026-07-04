@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – VOLT Robotics FRC 11195</title>
+  <meta name="description" content="Get in touch with VOLT, FRC Team 11195 — for sponsorship, mentorship, outreach, or joining the team.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html"><img src="images/volt-logo.png" alt="VOLT Robotics"> VOLT <span>11195</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="awards.html">Awards</a></li>
+    <li><a href="outreach.html">Outreach</a></li>
+    <li><a href="partners.html">Partners</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="page-hero">
+  <h1>Get in Touch</h1>
+  <p>Sponsorship, mentorship, outreach, or joining the team — we'd love to hear from you.</p>
+</div>
+
+<section class="bg-light">
+  <div class="container fade-in">
+
+    <!-- CONTACT INFO -->
+    <div class="contact-info">
+      <div class="ci"><div class="icon">📍</div><h4>Location</h4><p>O'Fallon, Illinois</p></div>
+      <div class="ci"><div class="icon">🤖</div><h4>Team</h4><p>FRC #11195</p></div>
+      <div class="ci"><div class="icon">✉️</div><h4>Email</h4><a href="mailto:george.a.mitchom@gmail.com">george.a.mitchom@gmail.com</a></div>
+      <div class="ci"><div class="icon">🔗</div><h4>FIRST</h4><a href="https://frc-events.firstinspires.org/team/11195" target="_blank" rel="noopener">Team 11195 Page</a></div>
+    </div>
+
+    <!-- FORM -->
+    <!-- TODO: replace the access_key below with VOLT's own Web3Forms key from https://web3forms.com (enter the team's email to generate one). -->
+    <form id="contact-form" class="contact-wrap" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+      <input type="hidden" name="subject" value="New Contact - VOLT Robotics FRC #11195">
+      <input type="hidden" name="redirect" value="false">
+      <input type="checkbox" name="botcheck" style="display:none;">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject_line" placeholder="e.g. Sponsorship, Mentorship, Joining the Team" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here…" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-orange" style="width:100%;">Send Message</button>
+    </form>
+
+    <div id="form-success" class="form-success" style="max-width:640px; margin:2.5rem auto 0;">
+      ⚡ Thanks for reaching out! We'll get back to you within a few days.
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand"><img src="images/volt-logo.png" alt="VOLT"> VOLT <span>11195</span></div>
+      <p>An all-girls rookie FRC team from O'Fallon, Illinois, completing the pathway from FLL to FTC to FRC.</p>
+    </div>
+    <div class="footer-col"><h4>Explore</h4><a href="about.html">About</a><a href="awards.html">Awards</a><a href="outreach.html">Outreach</a><a href="partners.html">Partners</a></div>
+    <div class="footer-col"><h4>Team</h4><p>FRC #11195</p><p>O'Fallon, Illinois</p><a href="https://frc-events.firstinspires.org/team/11195" target="_blank" rel="noopener">FIRST Team Page →</a></div>
+    <div class="footer-col"><h4>Connect</h4><a href="contact.html">Contact Us</a><a href="mailto:george.a.mitchom@gmail.com">Email the Team</a></div>
+  </div>
+  <div class="footer-bottom">Copyright © 2026 VOLT Robotics · FRC Team 11195. All rights reserved.</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
