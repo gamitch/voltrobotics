@@ -147,6 +147,13 @@ section { padding: 5rem 1.5rem; }
 .partner-card .p-name { font-weight: 800; font-size: 1rem; margin-bottom: 0.25rem; }
 .partner-card .p-role { font-size: 0.82rem; color: var(--text-faded); line-height: 1.5; }
 
+/* LOGO WALL */
+.logo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+.logo-card { background: white; border-radius: 14px; padding: 1.5rem 1.25rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; min-height: 150px; box-shadow: 0 2px 16px rgba(0,0,0,0.06); }
+.logo-card img { max-height: 56px; max-width: 85%; width: auto; object-fit: contain; }
+.logo-card .p-name { font-weight: 700; font-size: 0.88rem; color: var(--text-dark); text-align: center; }
+.logo-mono { width: 58px; height: 58px; border-radius: 50%; background: var(--orange); color: #fff; font-weight: 800; font-size: 1.25rem; letter-spacing: 0.02em; display: flex; align-items: center; justify-content: center; }
+
 /* PILLS */
 .pill-row { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-top: 1.5rem; }
 .pill { background: rgba(217,139,83,0.12); color: var(--orange-deep); border: 1px solid rgba(217,139,83,0.28); font-size: 0.85rem; font-weight: 600; padding: 0.5rem 1.1rem; border-radius: 100px; }
